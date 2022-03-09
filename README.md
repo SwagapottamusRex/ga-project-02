@@ -1,1 +1,1 @@
-# ga-project-02
+# project-2-demo
