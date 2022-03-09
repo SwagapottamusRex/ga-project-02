@@ -11,7 +11,7 @@ function NavBar() {
               {' '}
               Home
             </Link>
-            <Link to="/cheeses" className="navbar-item">
+            <Link to="/cocktails" className="navbar-item">
               All The Cocktails
             </Link>
           </div>
