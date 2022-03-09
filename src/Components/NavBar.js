@@ -12,7 +12,7 @@ function NavBar() {
               Home
             </Link>
             <Link to="/cheeses" className="navbar-item">
-              Cheese Index
+              All The Alcohols
             </Link>
           </div>
         </div>
