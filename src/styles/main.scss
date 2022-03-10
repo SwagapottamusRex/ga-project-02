@@ -1,1 +1,16 @@
 @import '~bulma/bulma.sass';
+
+.navbar {
+  display: flex;
+  align-self: center;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.alcohol-type {
+  font-size: 30px;
+  font-weight: bold;
+}

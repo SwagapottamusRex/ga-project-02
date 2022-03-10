@@ -1,8 +1,24 @@
 import axios from 'axios'
 
-const baseUrl = 'www.thecocktaildb.com/api/json/v1/1/';
+const baseUrl = 'https://www.thecocktaildb.com/api/json/v1/1/';
 
-export const getSearchByCocktailName = (cocktailName) => {
-  return axios.get(`${baseUrl}/search.php?s=${cocktailName}`);
-}
+export const getSearchByIngredient = (ingredient) => {
+  return axios.get(`${baseUrl}filter.php?i=${ingredient}`);
+};
 
+
+
+export const getSearchById = (idDrink) => {
+  return axios.get(
+    `https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${idDrink}`
+  );
+};
+
+
+
+
+export const getSearchByName = (strDrink) => {
+  return axios.get(
+    `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${strDrink}`
+  );
+};
