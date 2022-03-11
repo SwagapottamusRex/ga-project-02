@@ -38,7 +38,7 @@ const AlcoholType = ({ userSearches }) => {
       <div className="container">
         <div className="columns is-multiline">
           {!cocktails ? (
-            <p>Loading...</p>
+            <></>
           ) : (
             
             filterCocktails().map((item) =>  {

@@ -15,10 +15,13 @@ export const getSearchById = (idDrink) => {
 };
 
 
-
-
 export const getSearchByName = (strDrink) => {
   return axios.get(
     `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${strDrink}`
   );
+};
+
+
+export const getRandom = () => {
+  return axios.get('https://www.thecocktaildb.com/api/json/v1/1/random.php');
 };

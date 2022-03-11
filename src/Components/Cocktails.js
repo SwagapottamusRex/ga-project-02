@@ -15,25 +15,26 @@ function Cocktails(){
 
 
   return (
-    <>
-      
-      <section className='section'>
-        <div className='container'>
-          <input
-            className='input'
-            placeholder='Search Cocktail'
-            name='search'
-            onChange={handleChange}
-            value={whatUserTypes}
-          ></input>
+    <section className='hero is-fullheight-with-navbar'>
+      <div className="hero-body">
+        <div className="container mt-6">
+          <div className="field">
+            <input
+              className="input"
+              placeholder='Search Cocktailz'
+              name='search'
+              onChange={handleChange}
+              value={whatUserTypes}
+            ></input>
+          </div>
           <div className='columns is-multiline'>
             {alcoholTypes.map((alcohol) => {
               return <AlcoholType key={alcohol} alcohol={alcohol} userSearches={whatUserTypes}/>;
             })}
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }
 
