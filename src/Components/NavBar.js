@@ -41,7 +41,7 @@ function NavBar() {
             <div className='navbar-brand'>
               {/* this is the logo */}
               <div className='navbar-item'>
-                <Link to='/' className='navbar-item' onClick={<Link to='/' className='navbar-item'></Link>}>
+                <Link to='/' className='navbar-item'>
                   <p className='logo'>
                     🍸 <b>Cocktailz</b>
                   </p>
@@ -61,10 +61,10 @@ function NavBar() {
             {/* here are the links */}
             <div className='navbar-menu'>
               <div className='navbar-start'>
-                <Link to='/cocktails' className='navbar-item' onClick={<Link to='/cocktails' className='navbar-item'></Link>}>
+                <Link to='/cocktails' className='navbar-item'>
                   All The Cocktailz
                 </Link>
-                <Link to='/drinkresponsibly' className='navbar-item' onClick={<Link to='/drinkresponsibly' className='navbar-item'></Link>}>
+                <Link to='/drinkresponsibly' className='navbar-item'>
                   Drink Responsibly
                 </Link>
               </div>
@@ -80,7 +80,7 @@ function NavBar() {
                   value={whatUserTypes}
                 ></input>
               </div>
-              <div className='navbar-item' onClick={<Link to='/random' className='button is-warning'></Link>}>
+              <div className='navbar-item'>
                 <div className='buttons' id='randomise'>
                   <Link to='/random' className='button is-warning'>
                     <strong>Fetch Me A Drink</strong>
