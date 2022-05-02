@@ -30,9 +30,6 @@ const AlcoholType = ({ userSearches }) => {
     }
   }
 
-  
-  
-
   return (
     <section className="section">
       <div className="container">
@@ -53,6 +50,5 @@ const AlcoholType = ({ userSearches }) => {
   );
 
 }
-
 
 export default AlcoholType;
