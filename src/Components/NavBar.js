@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import SearchByName from './SearchByName';
 
-const alcoholTypes = ['Light_rum', 'Applejack', 'Gin', 'Dark_rum', 'Sweet_Vermouth', 'Scotch', 'Strawberry_schnapps', 'Apricot_brandy', 'Triple_sec', 'Southern_Comfort', 'Tequila', 'Vodka', 'Red_wine', 'Rum', 'Cider']
 
 function NavBar() {
    
