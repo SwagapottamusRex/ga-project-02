@@ -41,7 +41,7 @@ API Used:
 
 The Meal DB - https://www.thecocktaildb.com/api.php
 
-<li>Dev tools:</li>
+Dev tools:
 <li>VS code</li>
 <li>Postman</li>
 <li>Git</li>
