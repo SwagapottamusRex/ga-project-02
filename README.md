@@ -16,7 +16,7 @@ Table of contents
 
 ## Project Overview
 
-Coctailz is a app which showcases a wide list of cocktail recipes using a public api. This project was built in 6 days alongside my partner. The front-end was built using React JS. This was my first project ever using React and an API.
+Coctailz is an app which showcases a wide list of cocktail recipes using a public api. This project was built in 6 days alongside my partner. The front-end was built using React JS. This was my first project ever using React and an API.
 
 ## The Brief
 
