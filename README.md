@@ -45,7 +45,7 @@ Dev tools:
 <li>VS code</li>
 <li>Postman</li>
 <li>Git</li>
-<li>Github</li>
+<li>GitHub</li>
 <li>Node</li>
 <li>Excalidraw (Wireframeing)</li>
 <li>Netlify (deployment)</li>
