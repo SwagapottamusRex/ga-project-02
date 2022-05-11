@@ -4,7 +4,8 @@ https://fetchmeadrink.netlify.app/
 
 Team size: 2
 
-Table of contents
+## Table of contents
+
 <li>Project Overview</li>
 <li>The Brief</li>
 <li>Technologies Used</li>
