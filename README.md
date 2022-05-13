@@ -17,7 +17,7 @@ Team size: 2
 
 ## Project Overview
 
-Coctailz is an app which showcases a wide list of cocktail recipes using a public api. This project was built in 6 days alongside my partner. The front-end was built using React JS. This was my first project ever using React and an API.
+Coctailz is an app which showcases a wide list of cocktail recipes using a public api. This project was built in 6 days alongside my partner. It was a pair coding hackathon where every day consisted of chatting through zoom from 9am - 5pm and coding using VS Code live share. The front-end was built using React JS. This was my first project ever using React and an API.
 
 ## The Brief
 
@@ -53,7 +53,7 @@ Dev tools:
 
 ## Approach Taken
 
-The first stage of this project was planning and dividing up the tasks using Excalidraw (wireframe). I was in charge of several key files inside the components folder, namely the; Navbar.js, SearchByName.js, CocktailsCard.js, and the Random.js as well as some of the styling. Teamwork and communication was very fluid and clear. We used VS Code live share to work on the same project without needing to merge code using 'git'.
+The first stage of this project was planning and dividing up the tasks using Excalidraw (wireframe). I was in charge of several key files inside the components folder, namely the; Navbar.js, SearchByName.js, CocktailsCard.js, and the Random.js as well as some of the styling. Teamwork and communication was very fluid and clear. Reason being, we were on a live zoom call from 9-5 every day which allowed us to plan in advance and help each other out in case we were stuck on some part of our tasks. Our ability to commnunicate is what helped us reach our goals the most. Using Node Package Manager (NPM) we spun up the front end and hooked it up to the back end using Axios requests.
 
 Some code I am particularly proud of was building the search bar which required handling what the user searched for and filtering the API request for all the cocktails (showcased below).
 
@@ -63,9 +63,9 @@ Some code I am particularly proud of was building the search bar which required 
 
 ## Wins & Blockers
 
-Working as a team for the first time and building a project with React for the first time too was challenging. The deployment turned out to be quite buggy as many links became broken using Netlify. 
+Working as a team for the first time and building a project with React for the first time too, was challenging. The deployment turned out to be quite buggy as many links became broken using Netlify. 
 
-Having a used live share there weren't any problems with merging which was a nice win. We finished our most viable product (MVP) swiftly which left us with a lot of time to implement our stretch goals.
+I felt that we communicated very well and got very comfortable with React.js by the end of this project. We finished our most viable product (MVP) swiftly which left us with a lot of time to implement our stretch goals.
 
 ## Bugs
 
@@ -77,4 +77,4 @@ Some future content that could be added is registration and login pages where yo
 
 ## Key Learnings
 
-My key learnings from this project is that React and Node provide a local port that may not necessarily work when deploying with Netlify. Possibly the most important learning from this project was that I discovered I can work in a group well and divide up tasks fairly.
+My key learnings from this project are that React and Node provide a local port that may not necessarily work when deploying with Netlify. Possibly the most important learning from this project was that I discovered I can work in a group well and divide up tasks fairly. Last but not least, I learnt how to create a React app using Node and can do some comfortably and reliably.
